@@ -1,0 +1,34 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+
+@import "custom";
+@import "_vendor/bootstrap";
+@import "bower_components/bootstrap/scss/mixins";
+
+//
+// Custom style starts here
+// --------------------------------------------------
+h1, h3, h4{ font-family: $font-family-serif; }
+h1, h2{ color: #54687a; }
+.wine-header-bg{
+	background: url('/images/wsgallo-heading-bg.jpg') 50%;
+	padding: 25px 0;
+	margin-bottom: -40px;
+}
+.wines h2{ font-family: $font-family-serif; }
+@include media-breakpoint-up(lg) {
+	.wines h2{
+		color: #fff;
+		margin-left: 16px;
+		margin-left: 1rem;
+	}
+}
+.wines h3 { margin-bottom: 0; font-size: 21px; font-size: 1.35rem; }
+.wines h4 {margin-top: 0; font-size: 20px; font-size: 1.30rem; }

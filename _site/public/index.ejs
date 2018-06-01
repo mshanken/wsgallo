@@ -1,0 +1,51 @@
+
+<div class="wine-header-bg hidden-md-down"></div>
+<div class="row">
+	<div class="col-lg-6 wines">
+		<h2>WARM DAYS</h2>
+		<%- partial("_themes/default/block-handler",
+			{
+				image_src: "",
+				image_alt: "",
+				image_url: "",
+				yield: partial("_homepage/freibrother")
+			})
+		%>
+	</div>
+	<div class="col-lg-6 flex-lg-last wines">
+		<%- partial("_themes/default/block-handler",
+			{
+				image_src: "",
+				image_alt: "",
+				image_url: "",
+				yield: partial("_homepage/talbottvineyards-ch")
+			})
+		%>
+	</div>
+	<div class="col-lg-6 wines">
+		<h2>COOL NIGHTS</h2>
+		<%- partial("_themes/default/block-handler",
+			{
+				image_src: "",
+				image_alt: "",
+				image_url: "",
+				yield: partial("_homepage/mcmyrraystate")
+			})
+		%>
+	</div>
+	<div class="col-lg-6 flex-lg-last wines">
+		<%- partial("_themes/default/block-handler",
+			{
+				image_src: "",
+				image_alt: "",
+				image_url: "",
+				yield: partial("_homepage/talbottvineyards-pn")
+			})
+		%>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12 text-center">
+		<%- partial("_homepage/footer") %>
+	</div>
+</div>

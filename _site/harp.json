@@ -1,0 +1,20 @@
+{
+  "globals": {
+    "title": "Warm days, cool nights, and world-class wines",
+    "site_tagline":"Here’s what to drink this summer",
+    "subject":"Here’s what to drink this summer",
+    "url": "www.yoursite.com",
+    "description": "Warm days and cool nights: not only do they make summer special, they’re also responsible for developing wines with distinct character and outstanding taste. Time spent in the hot sunshine allows the grapes to build necessary sugar levels that contribute expressive fruit notes, while cooling nighttime temperatures help them retain crisp, cleansing acidity. Perhaps that’s why our wines travel exceptionally well across all summer activities. Meet the heat of the day with a vibrant, juicy Chardonnay. Then, greet the twilight with a bold yet smooth Pinot Noir. With a Chardonnay or Pinot Noir in hand, summer couldn’t be more idyllic.",
+    "keywords": "Warm days and cool nights, world-class wines, outstanding taste, drink this summer, Here’s what to drink this summer",
+    "copyright": "M. Shanken Communications, Inc.",
+    "name": "project name",
+    "email": "dev@mshanken.com",
+    "layout": "false",
+    "ga": false,
+    "analytics": "you-UA-code-here",
+    "dfp": false,
+    "openGraph": false,
+    "typekit": false,
+    "disqus": false
+  }
+}
