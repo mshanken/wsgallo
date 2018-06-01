@@ -13,7 +13,7 @@ All you need to run this project is docker.
 ```docker-compose exec web npm run compile``` compiles served site into static HTML in a folder "www"
 
 ```docker-compose exec web npm run gh-pages```  what this command does is compiled (if not compiled) then drops compiled files into root folder<br>
-**Note:** this comand should be used in *gh-pages* branch only.
+**Note:** this comand should be used in ***gh-pages*** branch only.
 
 Run ```docker-compose exec web /bin/bash``` to access docker machine from terminal an run other grunt/npm comands.
 
