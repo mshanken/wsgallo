@@ -31,19 +31,25 @@ h1, h2 {
 		padding: 0;
 	}
 	&-title {
+		font-size: $font-size-h3;
 		@include media-breakpoint-up(lg) {
-			font-size: 3.75rem;
+			font-size: $display4-size;
 		}
 	}
 	&-subtitle {
-		font-size: 1.4rem;
+		font-size: $font-size-sm;
 		font-weight: $display1-weight;
 		letter-spacing: 0.105em;
+		@include media-breakpoint-up(lg) {
+			font-size: $font-size-lg;
+		}
 	}
 	&-blurb {
 		margin: 0.56em 0 1em;
 		padding: 0;
+		font-size: $font-size-sm;
 		@include media-breakpoint-up(lg) {
+			font-size: $font-size-lg;
 			padding-left: 3.65em;
 			padding-right: 3.65em;
 		}
@@ -76,10 +82,14 @@ h1, h2 {
 		font-size: 1.1rem; 
 	}
 	&-bottle {
-		max-width: 90px;
+		max-width: 60px;
 		padding: 0;
 		margin: 1em 0;
+		@include media-breakpoint-up(sm) {
+			max-width: 80px;
+		}
 		@include media-breakpoint-up(lg) {
+			max-width: 90px;
 			margin: -8em 0 5em 0;
 		}
 	}
@@ -93,10 +103,14 @@ h1, h2 {
 .flex-lg-last {
 	.wines{
 		&-bottle {
-			max-width: 90px;
+			max-width: 60px;
 			padding: 0;
 			margin: 1em 0;
+			@include media-breakpoint-up(sm) {
+				max-width: 80px;
+			}
 			@include media-breakpoint-up(lg) {
+				max-width: 90px;
 				margin: -5.5em 0 3em 0;
 			}
 		}
@@ -110,8 +124,11 @@ h1, h2 {
 }
 
 .podcast-note {
+	font-size: $font-size-sm;
+	margin: 1em 0;
 	@include media-breakpoint-up(lg) {
 		padding: 0 5em;
+		font-size: $font-size-base;
 	}
 }
 
