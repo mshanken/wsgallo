@@ -2,12 +2,12 @@
 <div class="wine-header-bg hidden-md-down"></div>
 <div class="row">
 	<div class="col-lg-6 wines">
-		<h2>WARM DAYS</h2>
+		<h2 id="warm-days">WARM DAYS</h2>
 		<%- partial("_themes/default/block-handler",
 			{
-				image_src: "",
-				image_alt: "",
-				image_url: "",
+				image_src: "ZPM_2052404_783_JSv3_ISO.png",
+				image_alt: "bottle image",
+				image_url: "/",
 				yield: partial("_homepage/freibrother")
 			})
 		%>
@@ -15,30 +15,30 @@
 	<div class="col-lg-6 flex-lg-last wines">
 		<%- partial("_themes/default/block-handler",
 			{
-				image_src: "",
-				image_alt: "",
-				image_url: "",
+				image_src: "ZPM_2052404_785_JSv3_ISO.png",
+				image_alt: "bottle image",
+				image_url: "/",
 				yield: partial("_homepage/talbottvineyards-ch")
 			})
 		%>
 	</div>
 	<div class="col-lg-6 wines">
 		<h2>COOL NIGHTS</h2>
-		<%- partial("_themes/default/block-handler",
+		<%- partial("_themes/default/block-handler--cn",
 			{
-				image_src: "",
-				image_alt: "",
-				image_url: "",
+				image_src: "ZPM_2052404_781_JSv4_ISO.png",
+				image_alt: "bottle image",
+				image_url: "/",
 				yield: partial("_homepage/mcmyrraystate")
 			})
 		%>
 	</div>
 	<div class="col-lg-6 flex-lg-last wines">
-		<%- partial("_themes/default/block-handler",
+		<%- partial("_themes/default/block-handler--cn",
 			{
-				image_src: "",
-				image_alt: "",
-				image_url: "",
+				image_src: "TAL_KaliHart_Pinot-Noir_V16_750.png",
+				image_alt: "bottle image",
+				image_url: "/",
 				yield: partial("_homepage/talbottvineyards-pn")
 			})
 		%>
@@ -46,6 +46,8 @@
 </div>
 <div class="row">
 	<div class="col-sm-12 text-center">
-		<%- partial("_homepage/footer") %>
+		<div class="podcast-note">
+			<%- partial("_homepage/footer") %>
+		</div>
 	</div>
 </div>

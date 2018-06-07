@@ -17,18 +17,100 @@
 // --------------------------------------------------
 h1, h3, h4{ font-family: $font-family-serif; }
 h1, h2{ color: #54687a; }
-.wine-header-bg{
+
+
+.header {
+	&-image {
+		max-width: 100%;
+		height: auto;
+		margin: 1em 0 2em;
+		padding: 0;
+	}
+	&-title {
+		@include media-breakpoint-up(lg) {
+			font-size: 3.75rem;
+		}
+	}
+	&-subtitle {
+		font-size: 1.4rem;
+		font-weight: $display1-weight;
+		letter-spacing: 0.105em;
+	}
+	&-blurb {
+		margin: 0.56em 0 1em;
+		padding: 0;
+		@include media-breakpoint-up(lg) {
+			padding-left: 3.65em;
+			padding-right: 3.65em;
+		}
+	}
+}
+
+
+.wine-header-bg {
 	background: url('/images/wsgallo-heading-bg.jpg') 50%;
 	padding: 25px 0;
 	margin-bottom: -40px;
 }
-.wines h2{ font-family: $font-family-serif; }
-@include media-breakpoint-up(lg) {
-	.wines h2{
+
+.wines{
+	h2 { 
 		color: #fff;
-		margin-left: 16px;
-		margin-left: 1rem;
+		font-family: $font-family-serif; 
+	}
+	h3 { 
+		margin-bottom: 0; 
+		font-size: 21px; 
+		font-size: 1.35rem; 
+	}
+	h4 {
+		margin-top: 0; 
+		font-size: 20px; 
+		font-size: 1.30rem; 
+	}
+
+	&-bottle {
+		max-width: 90px;
+		padding: 0;
+		margin: 1em 0;
+		@include media-breakpoint-up(lg) {
+			margin: -8em 0 5em 0;
+		}
+	}
+
+	.card-body {
+		p {
+			font-size: $font-size-sm;
+		}
 	}
 }
-.wines h3 { margin-bottom: 0; font-size: 21px; font-size: 1.35rem; }
-.wines h4 {margin-top: 0; font-size: 20px; font-size: 1.30rem; }
+
+.flex-lg-last {
+	.wines{
+		&-bottle {
+			max-width: 90px;
+			padding: 0;
+			margin: 1em 0;
+			@include media-breakpoint-up(lg) {
+				margin: -5.5em 0 3em 0;
+			}
+		}
+	}
+}
+
+
+#warm-days {
+	margin-left: 4.4em;
+}
+
+
+.podcast-note {
+	@include media-breakpoint-up(lg) {
+		padding: 0 5em;
+	}
+}
+
+
+.footer {
+	text-align: center;
+}
