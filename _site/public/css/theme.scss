@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
 //
 // Load core variables and mixins
 // --------------------------------------------------
@@ -13,10 +7,12 @@
 @import "bower_components/bootstrap/scss/mixins";
 
 
-// setting rem font size with pixel fallback
+// 
+// Setting helper for rem font-size w/ px fallback
 // --------------------------------------------------
+
 @function calculateRem($size) {
-  $remSize: $size / $font-size-root;
+  $remSize: $size / $font-size-root; // $font-size-root: default size from _custom.scss
   @return $remSize * 1rem;
 }
 
@@ -73,10 +69,10 @@
 }
 
 .wines-header-bg {
-    background: url('/images/wsgallo-heading-bg.jpg') 50%;
-    padding: 25px 0;
-    margin-bottom: -40px;
-  }
+	background: url('/images/wsgallo-heading-bg.jpg') 50%;
+	padding: 25px 0;
+	margin-bottom: -40px;
+}
 
 .wines{
 	h3 {
@@ -143,6 +139,7 @@
 #cool-nights {
 	background-color: #556879;
 }
+
 #warm-days {
 	background-color: #c8a456;
 	@include media-breakpoint-up(lg) {
