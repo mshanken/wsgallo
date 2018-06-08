@@ -50,7 +50,6 @@
 		@include font-size(17px);
 		font-weight: $display1-weight;
     letter-spacing: 0.105em;
-    
 		@include media-breakpoint-up(lg) {
 			@include font-size(20px);
 		}
