@@ -1,6 +1,6 @@
-# GAllo Promo mini site
+# Gallo Promo mini site
 
-A new Promo site.
+A new promotional site.
 
 ## How it works
 
